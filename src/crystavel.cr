@@ -11,11 +11,12 @@ require "./core/server"
 module Crystavel
   # The version of the Crystavel framework
   VERSION = "0.1.0"
+  # Server const
   PORT = 3000
   HOST = "127.0.0.1"
 
   # Otteniamo l'istanza del server come singleton
-  server = Server.instance(PORT,HOST) # Passiamo il parametro per la porta
+  server = Server.new(PORT,HOST) # Passiamo il parametro per la porta
   # Avviamo il server
   server.start
 end
