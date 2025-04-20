@@ -1,0 +1,13 @@
+name: crystavel
+version: 0.1.0
+
+authors:
+  - Mawidev <mawidev@proton.me>
+
+targets:
+  crystavel:
+    main: src/crystavel.cr
+
+crystal: '>= 1.16.1'
+
+license: MIT
