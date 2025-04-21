@@ -1,4 +1,3 @@
-# core/router.cr
 require "http/server"
 
 class Router
@@ -38,7 +37,6 @@ class Router
   end
 
   private def path_to_regex(path : String) : Regex
-    # Transforms "/users/:id" to /^\/users\/([^\/]+)$/
     regex_str = path.gsub(/:[^\/]+/, "([^/]+)")
     Regex.new("^#{regex_str}$")
   end

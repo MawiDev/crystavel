@@ -11,3 +11,7 @@ targets:
 crystal: '>= 1.16.1'
 
 license: MIT
+
+dependencies:
+  blueprint:
+    github: stephannv/blueprint

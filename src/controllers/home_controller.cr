@@ -1,7 +1,12 @@
 require "http/server"
+require "json"
+require "../views/welcome"
 
 module HomeController
   def self.index(ctx : HTTP::Server::Context)
-    ctx.response.print "homepage"
+    view = Welcome.new
+
+    ctx.response.content_type = "text/html"
+    ctx.response.print view.to_s
   end
 end
