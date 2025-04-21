@@ -1,8 +1,7 @@
 require "blueprint/html"
+require "./layouts/main_layout"
 
-class Welcome
-  include Blueprint::HTML
-
+class Welcome < MainLayout
   def initialize(@message : String); end
 
   private def blueprint
