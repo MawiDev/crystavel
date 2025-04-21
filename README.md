@@ -1,27 +1,16 @@
 # crystavel
 
-TODO: Write a description here
-
 ## Installation
 
-TODO: Write installation instructions here
+- Install crystal lang (<https://crystal-lang.org/install/>)
+- `` git clone https://github.com/MawiDev/crystavel.git``
+- `` shards install ``
+
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/crystavel/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+- `` crystal run ./src/crystavel.cr ``
 
 ## Contributors
 
-- [Mawidev](https://github.com/your-github-user) - creator and maintainer
+- [Mawidev](https://github.com/MawiDev) - creator and maintainer
